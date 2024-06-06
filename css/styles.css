@@ -32,6 +32,9 @@ h1 {
     justify-content: center;
     padding: 15px;
     border-radius: 16px;
+    -webkit-box-shadow: 14px 14px 4px -1px rgba(133,131,133,1);
+    -moz-box-shadow: 14px 14px 4px -1px rgba(133,131,133,1);
+    box-shadow: 14px 14px 4px -1px rgba(133,131,133,1);
 }
 
 .box__01 {
