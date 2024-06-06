@@ -1,10 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400..900&display=swap');
+
 
 body {
-    background-color: antiquewhite;
+    background-color:blanchedalmond;
+}
 
+:root {
+    --color__primario: rgb(11, 70, 82);
+    --color__secundario: rgb(68, 68, 68);
+    --color__terciario: rgb(255, 255, 255);
+    
 }
 
 h1 {
     text-align: center;
-    color: aqua;
+    color: darkblue;
+    font-size: 50px;
+    font-family: "Orbitron", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+
+.flex__container {
+    background-color: aqua;
+    border: 5px solid black;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 70%;
+    margin: 0 auto;
+    justify-content: center;
+}
+
+.box__01 {
+    background-color: var(--color__primario);
+    background: url("https://images.unsplash.com/photo-1606144042614-b2417e99c4e3?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D") center no-repeat;
+    background-size: cover;
+    width: 290px;
+    height: 150px;
+    line-height: 150px;
+    text-align:center;
+    border: solid black 5px;
+}
+
+.box__02 {
+    background-color: var(--color__secundario);
+    background: url("https://images.unsplash.com/photo-1620815023653-f65690227267?q=80&w=1374&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D") center no-repeat;
+    background-size: cover;
+    width: 290px;
+    height: 150px;
+    line-height: 150px;
+    text-align:center;
+    border: solid black 5px;
+}
+
+.box__03 {
+    background-color: var(--color__primario);
+    background: url("https://images.unsplash.com/photo-1612036781124-847f8939b154?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D") center no-repeat;
+    background-size: cover;
+    width: 290px;
+    height: 150px;
+    line-height: 150px;
+    text-align:center;
+    border: solid black 5px;
+}
+
+.box__04 {
+    background-color: var(--color__secundario);
+    background: url("https://images.unsplash.com/photo-1587302912306-cf1ed9c33146?q=80&w=1580&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D") center no-repeat;
+    background-size: cover;
+    width: 290px;
+    height: 150px;
+    line-height: 150px;
+    text-align:center;
+    border: solid black 5px;
 }
